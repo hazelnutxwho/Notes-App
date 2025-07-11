@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Notes Apps</title>
+  <script defer src="bundle.js"></script></head>
+  <body>
+    <notes-header></notes-header>
+
+    <main>
+      <section id="note-form">
+        <h2>Add Notes</h2>
+        <note-form></note-form>
+      </section>
+
+      <section id="notes-list">
+        <h2>Notes List</h2>
+        <loading-spinner id="loading-indicator" style="display: none"></loading-spinner>
+        <div id="notes-container" class="grid-container">
+          <!-- List Notes yang di Add -->
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
